@@ -1,0 +1,27 @@
+
+@import url("./base/structure.css");
+@import url("./base/variables.css");
+
+
+@import url("./components/button.css");
+@import url("./components/footer.css");
+@import url("./components/form.css");
+@import url("./components/header.css");
+@import url("./components/project.css");
+
+
+
+/* GLOBAL STYLES */
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}

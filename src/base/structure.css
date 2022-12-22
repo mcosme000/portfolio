@@ -1,0 +1,11 @@
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

@@ -1,0 +1,15 @@
+
+header {
+  font-family: var(--main-font);
+  padding: 20px 0px;
+}
+
+header h1 {
+  font-size: 24px;
+  color: #000;
+
+}
+header li {
+  color: var(--secondary-color);
+  margin-left: 10px;
+}
