@@ -1,0 +1,15 @@
+
+footer {
+  background: var(--light-grey);
+  padding: 40px 0px;
+}
+
+footer li {
+  padding: 10px;
+  font-size: 20px;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+}

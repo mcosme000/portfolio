@@ -2,26 +2,58 @@
 @import url("./base/structure.css");
 @import url("./base/variables.css");
 
-
 @import url("./components/button.css");
 @import url("./components/footer.css");
 @import url("./components/form.css");
 @import url("./components/header.css");
 @import url("./components/project.css");
+@import url("./components/landing.css");
+
+@import url("./base/mediaqueries.css");
 
 
 
 /* GLOBAL STYLES */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 ul {
   list-style: none;
   padding: 0;
 }
 
-li {
-  display: inline-block;
-}
-
 a {
   text-decoration: none;
+  color: #000;
+}
+
+h1, h2, h3 {
+  font-family: var(--main-font);
+  margin-bottom: 20px;
+}
+
+p, li {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.introduction {
+  font-family: var(--secondary-font);
+  color: var(--secondary-color);
+  line-height: 1.5;
 }

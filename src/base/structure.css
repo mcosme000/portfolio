@@ -1,11 +1,32 @@
 
 .container {
-  width: 900px;
+  width: 1000px;
   margin: 0 auto;
+}
+
+.container-small {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.section {
+  width: 100%;
+  padding: 50px 0px;
 }
 
 .flex {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.grid-2 {
+  margin-top: 40px;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-2 div {
+  margin-bottom: 10px;
 }

@@ -1,9 +1,36 @@
 :root {
   --main-font: 'Lato', sans-serif;
-  /* --secondary-font:  */
+  --secondary-font:  'Playfair Display', serif;
   --secondary-color: #555555;
+  --light-grey: #eeeeee;
+  --ticket-main-color: #feefae;
+  --harumi-main-color: #bdcbcf;
+  /* --lauras-main-color: # */
+  --chat-main-color: #e2e2fb;
+  --foods-main-color: #3f7a6c;
+  --design-main-color: #ceebd4;
 }
 
-/* element {
-  background-color: var(--main-bg-color);
+.ticket {
+  background: var(--ticket-main-color);
+}
+
+.harumi {
+  background-color: var(--harumi-main-color);
+}
+
+/* .lauras {
+  background-color: var(--);
 } */
+
+.chat {
+  background-color: var(--chat-main-color);
+}
+
+.foods {
+  background-color: var(--foods-main-color);
+}
+
+.design {
+  background: var(--design-main-color);
+}
