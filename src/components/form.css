@@ -27,12 +27,3 @@ input, textarea {
 input:hover, textarea:hover {
   background: var(--light-grey);
 }
-
-.btn {
-  padding: 15px 25px;
-  font-size: 16px;
-}
-
-.btn:hover {
-  cursor: pointer;
-}

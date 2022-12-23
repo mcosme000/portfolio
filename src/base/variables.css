@@ -11,10 +11,11 @@
   --light-grey: #eeeeee;
   --ticket-main-color: #feefae;
   --harumi-main-color: #bdcbcf;
-  --lauras-main-color: #d4a3bc
+  --lauras-main-color: #d4a3bc;
   --chat-main-color: #e2e2fb;
   --foods-main-color: #3f7a6c;
   --design-main-color: #ceebd4;
+  --blue: #3c3cd9;
 }
 
 .ticket {
