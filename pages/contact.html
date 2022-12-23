@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,34 +9,65 @@
   <!-- styles -->
   <link rel="stylesheet" href="/src/global.css">
 
-  <!-- Lato font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,700;1,900&display=swap" rel="stylesheet">
-
-  <!-- Playfair font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
-
   <!-- fontawesome -->
   <script src="https://kit.fontawesome.com/8013b0f68f.js" crossorigin="anonymous"></script>
 
   <title>María Cosmen - Contact</title>
 </head>
+
 <body>
   <header>
     <div class="container flex">
-      <a href="/index.html"><h1>María Cosmen</h1></a>
+      <a href="/index.html">
+        <h1>María Cosmen</h1>
+      </a>
       <ul>
-        <a href="/pages/about.html"><li>About</li></a>
-        <a href="/pages/contact.html"><li>Contact</li></a>
+        <a href="/pages/about.html">
+          <li>About</li>
+        </a>
+        <a href="/pages/contact.html">
+          <li>Contact</li>
+        </a>
         <a href="https://drive.google.com/drive/folders/19h1iMtSt5EWOUMValZvTOL2vD3f9dNew" target="_blank">
           <li>CV</li>
         </a>
       </ul>
     </div>
   </header>
+
+  <div class="section">
+    <div class="container-small">
+      <h2>Contact</h2>
+      <p>
+        If you have any questions or requests involving my work,
+        feel free to contact me through any of my SNS or using the form below.
+      </p>
+      <form action="https://api.sheetmonkey.io/form/8aAWXVGBBJHAiY9v23pCVZ"
+      method="post">
+        <div>
+          <label for="exampleInputEmail1">Full name *</label>
+          <input type="text" name="Name" placeholder="Full name">
+        </div>
+        <div>
+          <label for="exampleInputPassword1">Organization</label>
+          <input type="text" name="Organization" placeholder="Organization">
+        </div>
+        <div>
+          <label for="exampleInputPassword1">Email *</label>
+          <input type="email" name="Email" placeholder="Email">
+        </div>
+        <div>
+          <label for="exampleInputPassword1">Phone number</label>
+          <input type="text" name="Phone" placeholder="Phone number">
+        </div>
+        <div>
+          <label for="exampleInputPassword1" class="form-label">Message *</label>
+          <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </div>
+  </div>
 
   <footer>
     <div class="container">
@@ -53,4 +85,5 @@
     </div>
   </footer>
 </body>
+
 </html>

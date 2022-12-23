@@ -1,0 +1,38 @@
+form {
+  margin: 50px 0px;
+  width: 100%;
+}
+
+form div {
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+label, input, textarea {
+  display: block;
+  font-family: var(--sans-serif);
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid var(--light-grey);
+  font-size: 16px;
+}
+
+input:hover, textarea:hover {
+  background: var(--light-grey);
+}
+
+.btn {
+  padding: 15px 25px;
+  font-size: 16px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
