@@ -17,6 +17,28 @@
   .grid-2 {
     grid-template-columns: 1fr;
   }
+
+  /* about page mq */
+  .presentation {
+    flex-direction: column;
+  }
+
+  .presentation .text-container {
+    margin-left: 0;
+  }
+
+  .presentation .image-container {
+    margin-bottom: 30px;
+  }
+
+  .presentation .text-container .hidden-text {
+    display: none;
+  }
+
+  .presentation .image-container .hidden-text {
+    display: inline;
+    margin-left: 20px;
+  }
 }
 
 @media(max-width: 540px) {
@@ -41,4 +63,6 @@
   .about {
     font-size: 18px;
   }
+
+
 }

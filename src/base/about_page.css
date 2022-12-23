@@ -1,0 +1,37 @@
+
+.profile {
+  border-radius: 50%;
+}
+
+.presentation {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.presentation .text-container {
+  flex-grow: 1;
+  margin-left: 50px;
+}
+
+.presentation .image-container {
+  display: flex;
+  align-items: center;
+}
+
+.image-container div {
+  width: 150px;
+}
+
+.hidden-text {
+  font-family: var(--secondary-font);
+  font-size: 26px;
+}
+.presentation .image-container .hidden-text {
+  display: none;
+}
+
+.date {
+  font-style: italic;
+  font-size: 16px;
+}
