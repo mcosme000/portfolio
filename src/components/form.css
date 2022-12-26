@@ -25,5 +25,15 @@ input, textarea {
 }
 
 input:hover, textarea:hover {
-  background: var(--light-grey);
+  background: rgb(243, 243, 243);
+}
+
+.is-valid {
+  border: 1.5px solid rgb(111, 211, 111);
+  border-radius: 2px;
+}
+
+.is-invalid {
+  border: 1.5px solid rgb(210, 78, 78);
+  border-radius: 2px;
 }

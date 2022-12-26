@@ -45,26 +45,26 @@
       <form action="https://api.sheetmonkey.io/form/8aAWXVGBBJHAiY9v23pCVZ"
       method="post">
         <div>
-          <label for="exampleInputEmail1">Full name *</label>
-          <input type="text" name="Name" placeholder="Full name">
+          <label for="name">Full name *</label>
+          <input type="text" class="input" name="Name" id="name" placeholder="Full name" required>
         </div>
         <div>
-          <label for="exampleInputPassword1">Organization</label>
-          <input type="text" name="Organization" placeholder="Organization">
+          <label for="organization">Organization</label>
+          <input type="text" class="input" name="Organization" id="organization" placeholder="Organization">
         </div>
         <div>
-          <label for="exampleInputPassword1">Email *</label>
-          <input type="email" name="Email" placeholder="Email">
+          <label for="email">Email *</label>
+          <input type="email" class="input" name="Email" placeholder="Email" id="email" required>
         </div>
         <div>
-          <label for="exampleInputPassword1">Phone number</label>
-          <input type="text" name="Phone" placeholder="Phone number">
+          <label for="phone">Phone number</label>
+          <input type="text" class="input" name="Phone" placeholder="Phone number" id="phone">
         </div>
         <div>
-          <label for="exampleInputPassword1" class="form-label">Message *</label>
-          <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+          <label for="message">Message *</label>
+          <textarea name="Message" class="input" style="resize: vertical" rows="5" placeholder="Message" id="message" required></textarea>
         </div>
-        <button type="submit" class="btn-submit">Submit</button>
+        <button type="submit" class="btn-submit" id ="submit-btn" disabled>Submit</button>
       </form>
     </div>
   </div>
@@ -84,6 +84,8 @@
       </ul>
     </div>
   </footer>
+
+  <script src="/src/index.js"></script>
 </body>
 
 </html>

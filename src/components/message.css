@@ -1,0 +1,13 @@
+
+.message-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.message {
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
