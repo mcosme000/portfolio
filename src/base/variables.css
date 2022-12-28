@@ -1,11 +1,10 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 
 :root {
   --main-font: 'Lato', sans-serif;
-  --secondary-font:  'Playfair Display', serif;
+  --secondary-font: 'Playfair Display', serif;
   --sans-serif: 'Inter', sans-serif;
   --secondary-color: #555555;
   --light-grey: #eeeeee;
@@ -16,7 +15,14 @@
   --foods-main-color: #3f7a6c;
   --design-main-color: #ceebd4;
   --blue: #3c3cd9;
+  --html: #e34c25;
+  --css: #7652ac;
+  --scss: #c6538c;
+  --js: #f1e05a;
 }
+
+
+/* BACKGROUND COLORS */
 
 .ticket {
   background: var(--ticket-main-color);
@@ -44,4 +50,20 @@
 
 .grey {
   background-color: var(--light-grey);
+}
+
+.html {
+  background-color: var(--html);
+}
+
+.scss {
+  background-color: var(--scss);
+}
+
+.css {
+  background-color: var(--css);
+}
+
+.js {
+  background-color: var(--js);
 }

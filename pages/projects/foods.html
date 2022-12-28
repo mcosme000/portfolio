@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,28 +9,25 @@
   <!-- styles -->
   <link rel="stylesheet" href="/src/global.css">
 
-  <!-- Lato font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,700;1,900&display=swap" rel="stylesheet">
-
-  <!-- Playfair font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
-
   <!-- fontawesome -->
   <script src="https://kit.fontawesome.com/8013b0f68f.js" crossorigin="anonymous"></script>
 
   <title>Foods API</title>
 </head>
+
 <body>
   <header>
     <div class="container flex">
-      <a href="/index.html"><h1>María Cosmen</h1></a>
+      <a href="/index.html">
+        <h1>María Cosmen</h1>
+      </a>
       <ul>
-        <a href="/pages/about.html"><li>About</li></a>
-        <a href="/pages/contact.html"><li>Contact</li></a>
+        <a href="/pages/about.html">
+          <li>About</li>
+        </a>
+        <a href="/pages/contact.html">
+          <li>Contact</li>
+        </a>
         <a href="https://drive.google.com/drive/folders/19h1iMtSt5EWOUMValZvTOL2vD3f9dNew" target="_blank">
           <li>CV</li>
         </a>
@@ -40,6 +38,47 @@
   <div class="landing">
     <img src="/media/foods_cover.png" alt="">
   </div>
+
+  <main>
+
+    <div class="container-small">
+      <div class="technologies">
+        <ul>
+          <li class="label html">HTML5</li>
+          <li class="label scss">SCSS</li>
+          <li class="label js">JavaScript</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container-small about">
+        <h2>About this project</h2>
+        <p>A simple site that uses an API to help users search for recipes. It shows basic information
+          such as photo, title, list of ingredients and the link to the original recipe.
+        </p>
+        <p>
+          The most challenging part was to handle the different overlays I created. When you first visit the site, you
+          will see a landing page, and after you call the API that overlay will stay hidden. I thought it would be
+          easier to handle, but for some reason this part took me a lot of time.
+        </p>
+        <p>Some features I would like to improve:</p>
+        <div>
+          <p>An option to mark recipes as favorites and display them in a separate page.</p>
+          <p>Implement the filter options. A strong part of this API is that it provides information for allergies
+            so I could take advantage of that and add a filter next to the header form.
+            This is also a good oportunity to play with radio buttons and select inputs 🫠
+          </p>
+        </div>
+      </div>
+
+      <div class="links-container">
+        <a href="https://github.com/mcosme000/Recipe-App" class="btn" target="_blank">Source code</a>
+        <a href="https://recipe-app-mcosme000.vercel.app/" class="btn" target="_blank">Live site</a>
+      </div>
+
+    </div>
+  </main>
 
   <footer>
     <div class="container">
@@ -57,4 +96,5 @@
     </div>
   </footer>
 </body>
+
 </html>
