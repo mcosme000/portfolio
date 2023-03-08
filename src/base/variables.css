@@ -19,6 +19,7 @@
   --css: #7652ac;
   --scss: #c6538c;
   --js: #f1e05a;
+  --ruby: #c50201;
 }
 
 
@@ -66,4 +67,9 @@
 
 .js {
   background-color: var(--js);
+}
+
+.ruby {
+  background-color: var(--ruby);
+  color: #fff;
 }

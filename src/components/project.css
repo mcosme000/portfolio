@@ -46,12 +46,3 @@ iframe {
 .technologies {
   margin-top: 20px;
 }
-
-.technologies .label {
-  display: inline-block;
-  font-size: 12px;
-  font-weight: bold;
-  margin-right: 10px;
-  border-radius: 50px;
-  padding: 5px 15px;
-}
