@@ -7,6 +7,9 @@
   grid-gap: 20px;
 }
 
+.project {
+  position: relative;
+}
 .project img {
   width: 100%;
   transition: ease-out 0.2s;
