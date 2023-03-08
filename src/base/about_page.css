@@ -19,8 +19,15 @@
   margin-left: 20px;
 }
 
-
 .date {
   font-style: italic;
   font-size: 16px;
+}
+
+
+/* MEDIA QUERIES */
+@media(max-width: 540px) {
+  .title {
+    font-size: 22px;
+  }
 }

@@ -8,3 +8,13 @@
 .grid-2 div {
   margin-bottom: 10px;
 }
+
+/* - - - - - - - */
+
+/* MEDIA QUERIES */
+
+@media(max-width: 720px) {
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+}
