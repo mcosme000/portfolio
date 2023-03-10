@@ -2,14 +2,14 @@
 header {
   background: rgba(255, 255, 255, 0.733);
   font-family: var(--main-font);
-  padding: 40px 0px;
+  padding: 20px 0px;
   position: sticky;
   top: 0;
   z-index: 3;
 }
 
 header h1 {
-  font-size: 24px;
+  font-size: 20px;
   color: #000;
   padding: 10px 0px;
   margin-bottom: 0px;

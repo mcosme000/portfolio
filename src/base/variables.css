@@ -15,7 +15,7 @@
   --chat-main-color: #e2e2fb;
   --foods-main-color: #3f7a6c;
   --design-main-color: #ceebd4;
-  
+
   --blue: #3c3cd9;
   --html: #e34c25;
   --css: #7652ac;
@@ -65,6 +65,7 @@
 
 .css {
   background-color: var(--css);
+  color: #fff;
 }
 
 .js {

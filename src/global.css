@@ -63,7 +63,9 @@ p, li {
   font-family: var(--sans-serif);
 }
 
-
+.strong {
+  font-weight: bold;
+}
 
 .introduction {
   padding-bottom: 30px;
