@@ -1,13 +1,14 @@
 .btn {
   border: 1px solid var(--light-grey);
   padding: 10px 30px;
-  border-radius: 5px;
+  border-radius: 3px;
   margin-right: 20px;
   font-size: 14px;
   font-family: var(--sans-serif);
   letter-spacing: 1.1px;
   margin-top: 16px;
   transition: ease-out 0.2s;
+  display: inline-block;
 }
 
 .btn:hover {
@@ -15,6 +16,11 @@
   transform:scale(1.1,1.1);
   -webkit-transform:scale(1.1,1.1);
   -moz-transform:scale(1.1,1.1);
+}
+
+.btn-small {
+  padding: 8px 15px;
+
 }
 
 /* Form button */
