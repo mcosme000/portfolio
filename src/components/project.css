@@ -47,10 +47,6 @@ iframe {
   height: 500px;
 }
 
-.link {
-  text-decoration: underline;
-}
-
 .links-container {
   margin-top: 30px;
   display: flex;

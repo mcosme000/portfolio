@@ -4,7 +4,6 @@
 @import url("./base/grid.css");
 @import url("./base/about_page.css");
 
-
 @import url("./components/button.css");
 @import url("./components/footer.css");
 @import url("./components/form.css");
@@ -13,6 +12,7 @@
 @import url("./components/landing.css");
 @import url("./components/message.css");
 @import url("./components/label.css");
+@import url('./components/avatar.css');
 
 
 /* GLOBAL STYLES */

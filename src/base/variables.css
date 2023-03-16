@@ -88,3 +88,9 @@
   background-color: var(--sql);
   color: #fff;
 }
+
+.link {
+  color: var(--sql);
+  text-decoration: none;
+  font-weight: bold;
+}
