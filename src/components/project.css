@@ -22,14 +22,9 @@
 
 .project img {
   width: 400px;
-  height: 400px;
-  transition: ease-out 0.2s;
+  height: 300px;
+  object-fit: cover;
 }
-
-.project img:hover{
-  opacity: 0.8;
-}
-
 
 /* PROJECT PAGE */
 
