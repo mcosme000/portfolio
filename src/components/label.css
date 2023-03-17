@@ -12,8 +12,8 @@
   position: absolute;
   top: 20px;
   right: 10px;
-  background: var(--light-grey);
-  color: #000;
+  background: #000;
+  color: #fff;
   z-index: 5;
 }
 
