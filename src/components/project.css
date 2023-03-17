@@ -4,7 +4,7 @@
   padding-bottom: 50px;
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 20px;
+  grid-gap: 40px;
 }
 
 .project-card {

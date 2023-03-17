@@ -1,0 +1,29 @@
+.banner {
+  width: 100%;
+  height: 500px;
+  padding: 100px;
+  background-position: center;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+.nophoto-banner {
+  height: 300px;
+  background: #ceebd4;
+}
+
+@media(max-width: 768px) {
+  .banner {
+    padding: 100px 10px;
+    font-size: 20px;
+  }
+}
+
+
+@media(max-width: 576px) {
+  .banner {
+    padding: 80px 10px;
+    font-size: 18px;
+  }
+}
