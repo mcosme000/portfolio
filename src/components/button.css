@@ -1,9 +1,10 @@
 .btn {
   border: 1px solid var(--light-grey);
+  background: var(--light-grey);
   padding: 10px 30px;
   border-radius: 3px;
   margin-right: 20px;
-  font-size: 14px;
+  font-size: 13px;
   font-family: var(--sans-serif);
   letter-spacing: 1.1px;
   margin-top: 16px;
@@ -12,7 +13,7 @@
 }
 
 .btn:hover {
-  background-color: var(--light-grey);
+  background-color: var(--dark-grey);
 }
 
 .btn-small {
