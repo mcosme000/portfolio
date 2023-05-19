@@ -23,6 +23,9 @@
   --scss: #c6538c;
   --js: #f1e05a;
   --ruby: #c50201;
+  --react: #5ed2f3;
+  --tailwind: #37bcf8;
+  --firebase: #ffcb35;
   --figma: #0cc97f;
   --sql: #2480c4;
 }
@@ -79,6 +82,18 @@
 .ruby {
   background-color: var(--ruby);
   color: #fff;
+}
+
+.react {
+  background-color: var(--react);
+}
+
+.tailwind {
+  background-color: var(--tailwind);
+}
+
+.firebase {
+  background-color: var(--firebase);
 }
 
 .figma {
