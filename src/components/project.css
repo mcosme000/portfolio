@@ -20,10 +20,15 @@
   padding: 0px 50px;
 }
 
+.project-content p {
+  text-align: justify;
+}
+
 .project img {
   width: 400px;
   height: 300px;
   object-fit: cover;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
 /* PROJECT PAGE */
