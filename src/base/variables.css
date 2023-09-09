@@ -19,19 +19,22 @@
 
   --blue: #3c3cd9;
   --html: #e34c25;
-  --css: #7652ac;
-  --scss: #c6538c;
+  --css: #2F6AF1;
   --js: #f1e05a;
   --ruby: #c50201;
   --react: #5ed2f3;
   --tailwind: #37bcf8;
   --firebase: #ffcb35;
+  --gpt: #70a597;
   --figma: #0cc97f;
   --sql: #2480c4;
 }
 
 
 /* BACKGROUND COLORS */
+.text-white {
+  color: #fff;
+}
 
 .ticket {
   background: var(--ticket-main-color);
@@ -63,17 +66,10 @@
 
 .html {
   background-color: var(--html);
-  color: #fff;
-}
-
-.scss {
-  background-color: var(--scss);
-  color: #fff;
 }
 
 .css {
   background-color: var(--css);
-  color: #fff;
 }
 
 .js {
@@ -95,6 +91,10 @@
 
 .firebase {
   background-color: var(--firebase);
+}
+
+.gpt {
+  background-color: var(--gpt);
 }
 
 .figma {
